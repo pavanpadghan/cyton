@@ -91,7 +91,7 @@ $_SESSION['name'] = $name;
   </label> <br> <br> 
 
   <button type="button" id="prevBtn" class="circle btn-primary" style="float:left;" > <h4>   Prev   </h4>       </button>
-<button type="button" name="next" id="nextBtn" class="circle  btn-primary" style="float:right;" > <h4>   Next    </h4>       </button>
+<button type="button" name="next" id="nextbutton" class="circle  btn-primary" style="float:right;" > <h4>   Next    </h4>       </button>
   </form>
 </div>
 
@@ -214,7 +214,7 @@ let option104 = "d) 412";
 
 
 
-document.getElementById('nextBtn').addEventListener("click", nextBtn);
+document.getElementById('nextbutton').addEventListener("click", nextBtn);
 document.getElementById('prevBtn').addEventListener("click", prevBtn);
 
 // questions and their options
@@ -314,13 +314,17 @@ function prevBtn() {
 }
 
 function nextBtn() {
-  if (currentQuestion > 0 && currentQuestion < 10) {
+    
+  if (currentQuestion > 0 && currentQuestion <11 ) {
     currentQuestion = currentQuestion + 1;
-
+   
+  } 
+  if(currentQuestion == 11){
+    
+    window.location.href = "dare2.php";
   }
+
   switchQueston();
-  console.log('click on next button');
-  console.log(currentQuestion);
 
 
 }
