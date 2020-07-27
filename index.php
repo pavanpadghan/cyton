@@ -28,16 +28,16 @@
               <a class="nav-link" href=""  style="color: red;">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#"style="color:red;" >Disclaimer</a>
+              <a class="nav-link" href="disclaimer.html"style="color:red;" >Disclaimer</a>
     
             </li>
             <li class="nav-item">
-              <a class="nav-link disabled" href="#" style="color: red;" tabindex="-1" aria-disabled="true">Privacy Policy</a>
+              <a class="nav-link " href="PrivacyPolicy.html" style="color: red;">Privacy Policy</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#"style="color:red;" >Terms and Conditions</a>
+              <a class="nav-link" href="termsandconditions.html"style="color:red;" >Terms and Conditions</a>
             <li class="nav-item">
-                <a class="nav-link" href="#"style="color:red;" >About Us</a>
+                <a class="nav-link" href="AboutUs.html"style="color:red;" >About Us</a>
           </ul>
           <form class="form-inline my-2 my-lg-0">
             <input class="form-control mr-sm-2" type="search" placeholder="Search anything" aria-label="Search">
@@ -101,16 +101,16 @@ This website is made only for entertainment prupose only.
         <a class="nav-link" href="#" style="color:white;">  Home   <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#"style="color:white;" >Disclaimer</a>
+      <a class="nav-link" href="disclaimer.html"style="color:white;" >Disclaimer</a>
 
       </li>
       <li class="nav-item">
-        <a class="nav-link disabled" href="#" style="color: white;" tabindex="-1" aria-disabled="true">Privacy Policy</a>
+        <a class="nav-link " href="PrivacyPolicy.html" style="color: white;"> Privacy Policy </a>
       </li>
       <li class="nav-item">
-          <a class="nav-link" href="#"style="color:white;" >Terms and Conditions</a>
+          <a class="nav-link" href="termsandconditions.html"style="color:white;" >Terms and Conditions</a>
           <li class="nav-item">
-            <a class="nav-link" href="#"style="color:white;" >About Us</a>
+            <a class="nav-link" href="AboutUs.html"style="color:white;" >About Us</a>
           <br> <br>
           
          

@@ -152,66 +152,65 @@ $_SESSION['name'] = $name;
 <script>
 let currentQuestion = 1;
 // 10 questions
-let question1 = "1) Which pet do you like?";
-let option11 = "a) dog";
-let option12 = "b) cat";
-let option13 = "c) elephant";
-let option14 = "d) lion";
+let question1 = "1) Which is your favourite subject ?";
+let option11 = "a) biology";
+let option12 = "b) math";
+let option13 = "c) physics";
+let option14 = "d) chemistry";
 
-let question2 = "2) Which is your favourite hero?";
+let question2 = "2) Which is your favourite hero ?";
 let option21 = "a) akshay kumar";
 let option22 = "b) ranbir kapoor";
 let option23 = "c) shahrukh khan";
 let option24 = "d) salman khan";
 
-let question3 = "3) Which is your favourite colour?";
+let question3 = "3) Which is your favourite colour ?";
 let option31 = "a) red";
 let option32 = "b) brown";
 let option33 = "c) green";
 let option34 = "d) black";
 
-let question4 = "";
-let option41 = "";
-let option42 = "";
-let option43 = "";
-let option44 = "";
+let question4 = "4) which is your favourite movie ?";
+let option41 = "a) bahubali 2";
+let option42 = "b) saaho";
+let option43 = "c) avengers endgame";
+let option44 = "d) avengers infinity war";
 
-let question5 = "";
-let option51 = "";
-let option52 = "";
-let option53 = "";
-let option54 = "";
+let question5 = "5) which pet you like most ?";
+let option51 = "a) dog";
+let option52 = "b) cat";
+let option53 = "c) parrot";
+let option54 = "d) squirel";
 
-let question6 = "";
-let option61 = "";
-let option62 = "";
-let option63 = "";
-let option64 = "";
+let question6 = "6) which place you like always ?";
+let option61 = "a) new york";
+let option62 = "b) mumbai";
+let option63 = "c) delhi";
+let option64 = "d) shimla";
 
-let question7 = "";
-let option71 = "";
-let option72 = "";
-let option73 = "";
-let option74 = "";
+let question7 = "7) which game you like to play all the time ?";
+let option71 = "a) PUBG";
+let option72 = "b) gta 5";
+let option73 = "c) gta sanandreas";
+let option74 = "d) free fire";
 
-let question8 = "";
-let option81 = "";
-let option82 = "";
-let option83 = "";
-let option84 = "";
+let question8 = "8) which mobile brand you like most ?";
+let option81 = "a) redmi";
+let option82 = "b) oneplus";
+let option83 = "c) apple";
+let option84 = "d) realme";
 
-let question9 = "";
-let option91 = "";
-let option92 = "";
-let option93 = "";
-let option94 = "";
+let question9 = "9) who discovered first living cell ?";
+let option91 = "a) anton vonleuvonhok";
+let option92 = "b) robert brown";
+let option93 = "c) robert foke";
+let option94 = "c) anton folr";
 
-let question10 = "";
-let option101 = "";
-let option102 = "";
-let option103 = "";
-let option104 = "";
-
+let question10 = "10) how many bones in our body ?";
+let option101 = "a) 201";
+let option102 = "b) 206";
+let option103 = "c) 300";
+let option104 = "d) 412";
 
 
 
@@ -236,7 +235,6 @@ function switchQueston(){
     option2.innerHTML = option12;
     option3.innerHTML = option13;
     option4.innerHTML = option14;
-
     break;
   case 2:
     question.innerHTML = question2;
@@ -272,30 +270,35 @@ function switchQueston(){
     option2.innerHTML = option62;
     option3.innerHTML = option63;
     option4.innerHTML = option64;
+  break;
   case 7:
     question.innerHTML = question7;
     option1.innerHTML = option71;
     option2.innerHTML = option72;
     option3.innerHTML = option73;
     option4.innerHTML = option74;
+  break;
   case 8:
     question.innerHTML = question8;
     option1.innerHTML = option81;
     option2.innerHTML = option82;
     option3.innerHTML = option83;
     option4.innerHTML = option84;
+  break;
   case 9:
     question.innerHTML = question9;
     option1.innerHTML = option91;
     option2.innerHTML = option92;
     option3.innerHTML = option93;
     option4.innerHTML = option94;
+  break;
   case 10:
     question.innerHTML = question10;
     option1.innerHTML = option101;
     option2.innerHTML = option102;
     option3.innerHTML = option103;
     option4.innerHTML = option104;
+  break;
 }
 }
 
